@@ -1,0 +1,62 @@
+.quick-transfer {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.quick-transfer .transfer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quick-transfer .users {
+  display: flex;
+  margin: 10px 0;
+}
+
+.quick-transfer .user {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.quick-transfer .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.quick-transfer .user img:hover {
+  border-color: #007bff;
+}
+
+.quick-transfer .amount-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quick-transfer input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.quick-transfer button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quick-transfer button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navbar input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .navbar .profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
